@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "test-docs"
+spec:
+  type: docs
+  owner: "group:default/backstage"
+  lifecycle: experimental
