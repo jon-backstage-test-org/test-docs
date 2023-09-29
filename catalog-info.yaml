@@ -2,6 +2,8 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: "test-docs"
+  annotations:
+    backstage.io/techdocs-ref: dir:.
 spec:
   type: docs
   owner: "group:default/backstage"
